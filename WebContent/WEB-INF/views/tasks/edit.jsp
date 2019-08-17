@@ -4,7 +4,7 @@
     <c:param name="content">
         <h2>タスクid : ${task.id} を更新</h2>
 
-        <form method="POST" action="${pagecontext.request.contextPath}/update">
+        <form method="POST" action="${pageContext.request.contextPath}/update">
             <c:import url="_form.jsp" />
         </form>
 
